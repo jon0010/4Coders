@@ -2,10 +2,14 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar font-semibold z-10 text-white relative w-full inset-x-0 top-0 flex justify-center items-center z-50">
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+          <div
+            tabIndex={0}
+            role="button"
+            className="btn btn-ghost lg:hidden absolute left-0"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -23,54 +27,84 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52"
           >
             <li>
-              <a>Item 1</a>
+              <a>Nosotros</a>
             </li>
             <li>
-              <a>Parent</a>
+              <a>Proyectos</a>
+            </li>
+            <li>
+              <a>Caracteristicas</a>
               <ul className="p-2">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>Precios</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Soporte</a>
+                </li>
+                <li>
+                  <a>Marketing Digital</a>
+                </li>
+                <li>
+                  <a>Creación de contenido</a>
+                </li>
+                <li>
+                  <a>Index SEO</a>
+                </li>
+                <li>
+                  <a>Diseño UX/UI</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a>Item 3</a>
+              <a>Contacto</a>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <a className="btn btn-ghost text-2xl font-bold">4Coders</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Item 1</a>
+            <a>Nosotros</a>
+          </li>
+          <li>
+            <a>Proyectos</a>
           </li>
           <li>
             <details>
-              <summary>Parent</summary>
-              <ul className="p-2">
+              <summary>Características</summary>
+              <ul
+                className="p-2"
+                style={{ backgroundColor: "#22c55e", zIndex: 0 }}
+              >
                 <li>
-                  <a>Submenu 1</a>
+                  <a>Precios</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Soporte</a>
+                </li>
+                <li>
+                  <a>Marketing Digital</a>
+                </li>
+                <li>
+                  <a>Creación de contenido</a>
+                </li>
+                <li>
+                  <a>Index SEO</a>
+                </li>
+                <li>
+                  <a>Diseño UX/UI</a>
                 </li>
               </ul>
             </details>
           </li>
           <li>
-            <a>Item 3</a>
+            <a>Contacto</a>
           </li>
         </ul>
-      </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
       </div>
     </div>
   );

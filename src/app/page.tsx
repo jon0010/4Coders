@@ -1,16 +1,24 @@
 import { Montserrat } from "next/font/google";
-import Navbar from "../app/components/navbar/index";
+import Header from "../app/components/header/index";
+import Features from "../app/components/features/index";
+import Technologies from "../app/components/technologies/index";
+import Metricas from "./components/metricas/index";
+import FourDetails from "./components/fourDetails";
+import ContactBox from "./components/contactBox";
+import Footer from "./components/footer";
 
-const montserrat = Montserrat({ subsets: ["latin"], weight: ["700"] });
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 const Home = () => {
   return (
-    <main>
-      <Navbar />
-      <h1 className={`${montserrat.className} antialised text-center text-5xl`}>
-        Simplicidad, elegancia y eficiencia. nuestra fórmula para el éxito a
-        bajo costo.
-      </h1>
+    <main className={`${montserrat.className} antialised text-center text-5xl`}>
+      <Header />
+      <Features />
+      <Technologies />
+      <Metricas />
+      <FourDetails />
+      <ContactBox />
+      <Footer />
     </main>
   );
 };
