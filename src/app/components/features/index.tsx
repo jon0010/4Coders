@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Features = () => {
   return (
-    <div className="flex justify-around bg-slate-200">
+    <div className="flex flex-col sm:flex-row justify-around bg-slate-200">
       <div className="mx-auto my-8 text-center">
         <Image
           src="https://res.cloudinary.com/dkpotpaaf/image/upload/v1707679270/shake-hands-svgrepo-com_kbj9n4.svg"

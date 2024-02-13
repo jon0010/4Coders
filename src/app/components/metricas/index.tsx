@@ -32,38 +32,36 @@ const Metricas = () => {
     <div className="w-3/4 mx-auto">
       <hr />
       <h1 className="text-5xl font-bold mt-28">Métricas en tiempo real</h1>
-      <h3 className="mt-10 text-2xl text-slate-500 w-1/2 mx-auto my-12">
+      <h3 className="mt-10 text-xl text-slate-500 mx-auto my-12">
         Gracias a nuestra biblioteca de tecnologías vas a acceder a la
         información de los movimientos en el sitio minuto a minuto.
       </h3>
-      <div className="flex justify-around">
-        <div className="mx-auto my-8 text-center">
+      <div className="flex flex-wrap justify-around">
+        <div className="mx-auto my-8 text-center sm:w-full md:w-1/3">
           <Circle color="red" number={1} />
           <p className="font-semibold text-2xl my-5">Profesionalidad</p>
-          <p className="text-lg w-96 text-slate-500">
+          <p className="text-base w-4/5 text-slate-500 mx-auto">
             Somos una consultora Argentina, líder en brindar soluciones
             informáticas para empresas que ofrece servicios profesionales
             variados, especializándonos en la consultoría IT entre otros
             servicios.
           </p>
         </div>
-        <hr className="my-auto" />
-        <div className="mx-auto my-8 text-center">
+        <div className="mx-auto my-8 text-center sm:w-full md:w-1/3">
           <Circle color="green" number={2} />
           <p className="font-semibold text-2xl my-5">Procesos personalizados</p>
-          <p className="text-lg w-96 text-slate-500">
+          <p className="text-base w-4/5 text-slate-500 mx-auto">
             Cada empresa habita un universo diferente, por eso la propuesta del
             4Coders está cien por ciento orientada hacia las necesidades y
             funcionamientos internos del cliente.
           </p>
         </div>
-        <hr className="my-auto" />
-        <div className="mx-auto my-8 text-center">
+        <div className="mx-auto my-8 text-center sm:w-full md:w-1/3">
           <Circle color="blue" number={3} />
           <p className="font-semibold text-2xl my-5">
             Cronograma Predeterminado
           </p>
-          <p className="text-lg w-96 text-slate-500">
+          <p className="text-base w-4/5 text-slate-500 mx-auto">
             Sistema de entregas planificadas mediante SCRUM con sprints
             quincenales para brindar un seguimiento permanente desde el inicio
             hasta el final del diseño y desarrollo

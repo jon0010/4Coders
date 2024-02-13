@@ -10,7 +10,7 @@ const ContactBox = () => {
               <h1 className="text-2xl font-bold text-start">
                 ¿Listo para poner en marcha tu próximo proyecto?
               </h1>
-              <p className="text-base mt-4 text-start w-5/6">
+              <p className="text-base mt-4 text-start w-5/6 font-medium text-slate-500">
                 Te animamos a dar el primer paso hacia la transformación de tu
                 negocio con nosotros. Te invitamos a aprovechar nuestras
                 soluciones hoy y experimentar la diferencia por vos mismo.

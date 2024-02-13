@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { BsArrowLeftSquareFill, BsArrowRightSquareFill } from "react-icons/bs";
 
@@ -88,26 +88,43 @@ const Technologies = () => {
     "Templates listas para agregar a las interfaces",
     "Manejo de datos encriptados de extremo a extremo",
   ];
-  const cardsPerPage = 4;
+  const cardsPerPageSm = 1;
+  const cardsPerPageMd = 4;
   const totalCards = technologies.length;
   const [currentPage, setCurrentPage] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 640);
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const renderCards = () => {
-    const startIndex = currentPage * cardsPerPage;
-    const endIndex = Math.min(startIndex + cardsPerPage, totalCards);
+    const startIndex =
+      currentPage * (isMobile ? cardsPerPageSm : cardsPerPageMd);
+    const endIndex = startIndex + (isMobile ? cardsPerPageSm : cardsPerPageMd);
     const visibleTechnologies = technologies.slice(startIndex, endIndex);
 
     return visibleTechnologies.map((tech, index) => (
       <div
-        key={index}
-        className={`card border-2 mx-4 p-4 my-16 ${colors[startIndex + index]}`}
-        style={{ width: "400px", height: "700px" }}
+        key={startIndex + index}
+        className={`card border-2 mx-4 p-4 my-8 ${colors[startIndex + index]}`}
+        style={{ width: "300px", height: "600px", overflow: "hidden" }}
       >
         <p className="text-xs font-bold mt-5 text-start text-black ms-4">
           {header[startIndex + index]}
         </p>
-        <h2 className="my-7 text-start ms-8 font-semibold">{tech}</h2>
-        <p className="text-xl font-medium text-slate-500 text-start px-9 leading-relaxed">
+        <p className="my-3 text-start text-4xl ms-3 font-semibold">{tech}</p>
+        <p className="text-base font-medium text-slate-500 text-start px-4 leading-relaxed">
           {description[startIndex + index]}
         </p>
         <div className="flex items-center justify-start">
@@ -134,22 +151,27 @@ const Technologies = () => {
 
   const goToNextPage = () => {
     setCurrentPage(
-      (prevPage) => (prevPage + 1) % Math.ceil(totalCards / cardsPerPage)
+      (prevPage) =>
+        (prevPage + 1) %
+        Math.ceil(totalCards / (isMobile ? cardsPerPageSm : cardsPerPageMd))
     );
   };
 
   const goToPrevPage = () => {
     setCurrentPage((prevPage) =>
-      prevPage === 0 ? Math.ceil(totalCards / cardsPerPage) - 1 : prevPage - 1
+      prevPage === 0
+        ? Math.ceil(totalCards / (isMobile ? cardsPerPageSm : cardsPerPageMd)) -
+          1
+        : prevPage - 1
     );
   };
 
   return (
     <div>
-      <h1 className="text-5xl font-bold mt-28">
+      <h1 className="text-4xl font-bold mt-16 px-3">
         Tecnologías con las que trabajamos
       </h1>
-      <h3 className="mt-10 text-2xl text-slate-500">
+      <h3 className="mt-10 text-xl text-slate-500 px-4">
         Todo nuestro stack tecnológico a disposición de lo que necesites
       </h3>
       <div className="flex justify-center items-center mt-6">
