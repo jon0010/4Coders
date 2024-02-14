@@ -5,6 +5,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -13,13 +14,16 @@ const Footer = () => {
       style={{ backgroundColor: "#161C2D" }}
     >
       <div style={{ padding: "25px" }}>
-        <h1 className="text-4xl font-bold text-white mb-12 text-start">
+        <Link
+          href="/"
+          className="text-4xl font-bold text-white mb-14 text-start"
+        >
           4Coders
-        </h1>
-        <p className="text-lg mt-2 text-start text-white my-20">
+        </Link>
+        <p className="text-lg mt-2 text-start text-white my-20 pt-6">
           Descubrí todo el potencial de tu negocio con nuestro equipo.
         </p>
-        <div className="flex text-white">
+        <div className="flex text-white text-4xl">
           <FaFacebookSquare className="mr-2" />
           <FaInstagramSquare className="mr-2" />
           <FaLinkedin className="mr-2" />
@@ -34,7 +38,7 @@ const Footer = () => {
           Contacta con nosotros
         </h3>
         <ul className="text-lg mt-2 text-start text-white my-20">
-          <li>mail1@gmail.com</li>
+          <li>jonnahuel78@gmail.com</li>
           <li>mail2@gmail.com</li>
           <li>mail3@gmail.com</li>
           <li>mail4@gmail.com</li>
@@ -49,8 +53,12 @@ const Footer = () => {
           Productos
         </h3>
         <ul className="text-lg mt-2 text-start text-white my-20">
-          <li>Precios</li>
-          <li>Soporte</li>
+          <li>
+            <Link href="/precios">Precios</Link>
+          </li>
+          <li>
+            <Link href="/soporte">Soporte</Link>
+          </li>
         </ul>
       </div>
       <div
@@ -61,10 +69,18 @@ const Footer = () => {
           Servicios
         </h3>
         <ul className="text-lg mt-2 text-start text-white my-20">
-          <li>Marketing Digital</li>
-          <li>Creación de contenido</li>
-          <li>Index SEO</li>
-          <li>Diseño UX/UI</li>
+          <li>
+            <Link href="/marketing-digital">Marketing Digital</Link>
+          </li>
+          <li>
+            <Link href="/content-creation">Creación de contenido</Link>
+          </li>
+          <li>
+            <Link href="/index-seo">Index SEO</Link>
+          </li>
+          <li>
+            <Link href="/diseno-uxui">Diseño UX/UI</Link>
+          </li>
         </ul>
       </div>
     </div>

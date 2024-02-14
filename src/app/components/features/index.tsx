@@ -13,7 +13,7 @@ const Features = () => {
           className="mx-auto"
         />
         <p className="font-semibold text-2xl my-5">Profesionalidad</p>
-        <p className="text-lg w-96">
+        <p className="text-lg w-96 text-slate-500">
           Somos una consultora Argentina, líder en brindar soluciones
           informáticas para empresas que ofrece servicios profesionales
           variados, especializándonos en la consultoría IT entre otros
@@ -30,7 +30,7 @@ const Features = () => {
           className="mx-auto"
         />
         <p className="font-semibold text-2xl my-5">Procesos personalizados</p>
-        <p className="text-lg w-96">
+        <p className="text-lg w-96 text-slate-500">
           Cada empresa habita un universo diferente, por eso la propuesta del
           4Coders está cien por ciento orientada hacia las necesidades y
           funcionamientos internos del cliente.
@@ -45,7 +45,7 @@ const Features = () => {
           className="mx-auto"
         />
         <p className="font-semibold text-2xl my-5">Cronograma Predeterminado</p>
-        <p className="text-lg w-96">
+        <p className="text-lg w-96 text-slate-500">
           Sistema de entregas planificadas mediante SCRUM con sprints
           quincenales para brindar un seguimiento permanente desde el inicio
           hasta el final del diseño y desarrollo
