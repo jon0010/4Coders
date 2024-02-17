@@ -32,7 +32,7 @@ const Nosotros = () => {
               className="absolute inset-x-0 top-1/2 text-start p-10 text-5xl font-bold text-black"
               style={{ textShadow: "2px 2px 2px white" }}
             >
-              Nuestros valores
+              Sobre nosotros
             </h1>
           </div>
         </div>
@@ -69,7 +69,7 @@ const Nosotros = () => {
               </p>
             </div>
           </div>
-          <div className="col-span-1 sm:col-span-1 ms-9 w-full my-3">
+          <div className="col-span-1 sm:col-span-1 ms-10 w-full my-3">
             <div className="flex flex-col">
               <Image
                 src="https://res.cloudinary.com/dkpotpaaf/image/upload/v1707882657/call-center-2-svgrepo-com_r6dedv.svg"
@@ -103,7 +103,7 @@ const Nosotros = () => {
           </div>
           <div className="col-span-1 p-2">
             <div className="flex flex-col">
-              <h2 className="text-center sm:text-start text-5xl font-bold text-black my-2">
+              <h2 className="text-center sm:text-start text-4xl font-bold text-black my-2">
                 Nuestro Staff de Consultores
               </h2>
               <p className="text-center sm:text-start text-slate-500 leading-loose">

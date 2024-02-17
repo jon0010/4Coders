@@ -39,10 +39,10 @@ const Footer = () => {
         </h3>
         <ul className="text-lg mt-2 text-start text-white my-20">
           <li>jonnahuel78@gmail.com</li>
-          <li>mail2@gmail.com</li>
-          <li>mail3@gmail.com</li>
-          <li>mail4@gmail.com</li>
-          <li>mail5@gmail.com</li>
+          <li>alanabelpereyra322@gmail.com</li>
+          <li>diana.meza@gmail.com</li>
+          <li>rodriguez.ibrahin@gmail.com</li>
+          <li>linovich@gmail.com</li>
         </ul>
       </div>
       <div
