@@ -31,9 +31,9 @@ const images = [
 
 const ImageBubbles = () => {
   return (
-    <div className="flex justify-center">
+    <div className="flex flex-col items-center sm:flex-row sm:items-start justify-center">
       {images.map((item, index) => (
-        <div key={index} className="relative">
+        <div key={index} className="relative mb-6 sm:mb-0">
           <div
             className={`rounded-full overflow-hidden border-4 mx-auto me-3 ${getBorderColor(
               index

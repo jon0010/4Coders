@@ -70,61 +70,63 @@ const Equipo = () => {
       <h2 className="text-4xl font-bold text-black my-12">Staff 4Coders</h2>
       <ImageBubbles />
       <hr />
-      <div className="relative z-10 text-center flex items-center justify-center w-6/7 p-12 mx-auto">
-        <div>
-          <h2 className="text-4xl font-bold text-black">Nuestros valores</h2>
-          <br />
-          <ul className="text-start mx-auto leading-[3.5rem] ps-12 text-slate-500">
-            <li>
-              <strong className="text-green-600">Compromiso:</strong> Dando un
-              seguimiento a cada feature y/o necesidad del cliente que surja en
-              el proceso de planificación, diseño o desarrollo.
-            </li>
-            <li>
-              <strong className="text-green-600">Honestidad:</strong> El primer
-              paso para entablar una relacion optima cliente/equipo.
-            </li>
-            <li>
-              <strong className="text-green-600">Motivación:</strong> Es lo que
-              nos mueve dia a dia y lo que transmitimos en las reuniones e ideas
-              que plasmamos.
-            </li>
-            <li>
-              <strong className="text-green-600">Esfuerzo:</strong> Es lo que
-              nos permite llevar a cabo todos tus objetivos y así cumplir el
-              nuestro.
-            </li>
-            <li>
-              <strong className="text-green-600">Innovación:</strong> Mediante
-              brainstormming y manteniendonos a la vanguardia de las últimas
-              tecnologías.
-            </li>
-            <li>
-              <strong className="text-green-600">Pasión:</strong> Siempre
-              presente en nuestro desempeño y visible en los resultados.
-            </li>
-            <li>
-              <strong className="text-green-600">Flexibilidad:</strong> Siempre
-              llevando tus ideas a un marco realizable y tangible.
-            </li>
-            <li>
-              <strong className="text-green-600">Responsabilidad:</strong> Desde
-              la reunion kickOff dejamos clara nuestra manera de cumplir con los
-              plazos y calidad del producto.
-            </li>
-          </ul>
-        </div>
-        <div>
-          <Image
-            src="https://res.cloudinary.com/dkpotpaaf/image/upload/v1707879253/pexels-photo-1181673_uwpkxz.jpg"
-            alt="imgvalores"
-            width={400}
-            height={500}
-            className="mr-8 rounded-md border"
-          />
+      <div className="col-span-1 p-2">
+        <div className="flex flex-col sm:flex-row">
+          <div className="w-full sm:w-5/6 mb-8 sm:mb-0 sm:mr-8 p-9">
+            <h2 className="text-center sm:text-start text-4xl font-bold text-black my-2">
+              Nuestros valores
+            </h2>
+            <ul className="text-start mx-auto leading-[3.5rem] text-slate-500 p-3">
+              <li>
+                <strong className="text-green-600">Compromiso:</strong> Dando un
+                seguimiento a cada feature y/o necesidad del cliente que surja
+                en el proceso de planificación, diseño o desarrollo.
+              </li>
+              <li>
+                <strong className="text-green-600">Honestidad:</strong> El
+                primer paso para entablar una relación óptima cliente/equipo.
+              </li>
+              <li>
+                <strong className="text-green-600">Motivación:</strong> Es lo
+                que nos mueve día a día y lo que transmitimos en las reuniones e
+                ideas que plasmamos.
+              </li>
+              <li>
+                <strong className="text-green-600">Esfuerzo:</strong> Es lo que
+                nos permite llevar a cabo todos tus objetivos y así cumplir el
+                nuestro.
+              </li>
+              <li>
+                <strong className="text-green-600">Innovación:</strong> Mediante
+                brainstorming y manteniéndonos a la vanguardia de las últimas
+                tecnologías.
+              </li>
+              <li>
+                <strong className="text-green-600">Pasión:</strong> Siempre
+                presente en nuestro desempeño y visible en los resultados.
+              </li>
+              <li>
+                <strong className="text-green-600">Flexibilidad:</strong>{" "}
+                Siempre llevando tus ideas a un marco realizable y tangible.
+              </li>
+              <li>
+                <strong className="text-green-600">Responsabilidad:</strong>{" "}
+                Desde la reunión KickOff dejamos clara nuestra manera de cumplir
+                con los plazos y calidad del producto.
+              </li>
+            </ul>
+          </div>
+          <div className="flex-row justify-center w-full sm:w-6/12">
+            <Image
+              src="https://res.cloudinary.com/dkpotpaaf/image/upload/v1707879253/pexels-photo-1181673_uwpkxz.jpg"
+              alt="imgvalores"
+              width={400}
+              height={300}
+              className="rounded-md border"
+            />
+          </div>
         </div>
       </div>
-
       <Footer />
     </div>
   );
