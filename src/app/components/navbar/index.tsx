@@ -55,7 +55,7 @@ const Navbar = () => {
             <ul
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52"
-              style={{ backgroundColor: "#22c55e", zIndex: 0 }}
+              style={{ backgroundColor: "#40b3a2", zIndex: 0 }}
             >
               <li>
                 <Link href="/nosotros">Nosotros</Link>
@@ -109,7 +109,7 @@ const Navbar = () => {
                   <summary>Características</summary>
                   <ul
                     className="p-2"
-                    style={{ backgroundColor: "#22c55e", zIndex: 0 }}
+                    style={{ backgroundColor: "#40b3a2", zIndex: 0 }}
                   >
                     <li>
                       <Link href="/precios">Precios</Link>

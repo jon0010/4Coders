@@ -78,39 +78,39 @@ const Equipo = () => {
             </h2>
             <ul className="text-start mx-auto leading-[3.5rem] text-slate-500 p-3">
               <li>
-                <strong className="text-green-600">Compromiso:</strong> Dando un
+                <strong className="text-teal-500">Compromiso:</strong> Dando un
                 seguimiento a cada feature y/o necesidad del cliente que surja
                 en el proceso de planificación, diseño o desarrollo.
               </li>
               <li>
-                <strong className="text-green-600">Honestidad:</strong> El
-                primer paso para entablar una relación óptima cliente/equipo.
+                <strong className="text-teal-500">Honestidad:</strong> El primer
+                paso para entablar una relación óptima cliente/equipo.
               </li>
               <li>
-                <strong className="text-green-600">Motivación:</strong> Es lo
-                que nos mueve día a día y lo que transmitimos en las reuniones e
+                <strong className="text-teal-500">Motivación:</strong> Es lo que
+                nos mueve día a día y lo que transmitimos en las reuniones e
                 ideas que plasmamos.
               </li>
               <li>
-                <strong className="text-green-600">Esfuerzo:</strong> Es lo que
+                <strong className="text-teal-500">Esfuerzo:</strong> Es lo que
                 nos permite llevar a cabo todos tus objetivos y así cumplir el
                 nuestro.
               </li>
               <li>
-                <strong className="text-green-600">Innovación:</strong> Mediante
+                <strong className="text-teal-500">Innovación:</strong> Mediante
                 brainstorming y manteniéndonos a la vanguardia de las últimas
                 tecnologías.
               </li>
               <li>
-                <strong className="text-green-600">Pasión:</strong> Siempre
+                <strong className="text-teal-500">Pasión:</strong> Siempre
                 presente en nuestro desempeño y visible en los resultados.
               </li>
               <li>
-                <strong className="text-green-600">Flexibilidad:</strong>{" "}
-                Siempre llevando tus ideas a un marco realizable y tangible.
+                <strong className="text-teal-500">Flexibilidad:</strong> Siempre
+                llevando tus ideas a un marco realizable y tangible.
               </li>
               <li>
-                <strong className="text-green-600">Responsabilidad:</strong>{" "}
+                <strong className="text-teal-500">Responsabilidad:</strong>{" "}
                 Desde la reunión KickOff dejamos clara nuestra manera de cumplir
                 con los plazos y calidad del producto.
               </li>

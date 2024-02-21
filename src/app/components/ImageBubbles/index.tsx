@@ -63,11 +63,11 @@ const ImageBubbles = () => {
 
 const getBorderColor = (index: number) => {
   const colors = [
-    "border-green-500",
-    "border-green-500",
-    "border-green-500",
-    "border-green-500",
-    "border-green-500",
+    "border-teal-400",
+    "border-teal-400",
+    "border-teal-400",
+    "border-teal-400",
+    "border-teal-400",
   ];
   return colors[index % colors.length];
 };
