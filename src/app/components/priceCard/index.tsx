@@ -30,7 +30,7 @@ const PriceCard: React.FC<PriceCardProps> = ({
           {description.map((item, index) => (
             <li key={index} className="flex items-top">
               <FaCheck className="check-icon pt-1 ms-1" />
-              <span className="pb-2 text-md ms-1">{item.text}</span>
+              <span className="pb-2 text-md ms-1 text-start">{item.text}</span>
             </li>
           ))}
         </ul>

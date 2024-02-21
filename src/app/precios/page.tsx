@@ -152,7 +152,7 @@ const Precios = () => {
             },
           ]}
           offer="¡Oferta especial! Obtén un descuento del 15% hasta el 01 de marzo de 2024."
-          ribbon="backend complejo"
+          ribbon="precio especial"
         />
       </div>
       <Footer />
