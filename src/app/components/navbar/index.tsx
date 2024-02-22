@@ -73,12 +73,6 @@ const Navbar = () => {
                     <Link href="/soporte">Soporte</Link>
                   </li>
                   <li>
-                    <Link href="/marketing-digital">Marketing Digital</Link>
-                  </li>
-                  <li>
-                    <Link href="/content-creation">Creación de contenido</Link>
-                  </li>
-                  <li>
                     <Link href="/index-seo">Index SEO</Link>
                   </li>
                   <li>
@@ -116,14 +110,6 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link href="/soporte">Soporte</Link>
-                    </li>
-                    <li>
-                      <Link href="/marketing-digital">Marketing Digital</Link>
-                    </li>
-                    <li>
-                      <Link href="/content-creation">
-                        Creación de contenido
-                      </Link>
                     </li>
                     <li>
                       <Link href="/index-seo">Index SEO</Link>

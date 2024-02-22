@@ -70,12 +70,6 @@ const Footer = () => {
         </h3>
         <ul className="text-lg mt-2 text-start text-white my-20">
           <li>
-            <Link href="/marketing-digital">Marketing Digital</Link>
-          </li>
-          <li>
-            <Link href="/content-creation">Creación de contenido</Link>
-          </li>
-          <li>
             <Link href="/index-seo">Index SEO</Link>
           </li>
           <li>
