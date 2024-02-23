@@ -63,7 +63,7 @@ const Footer = () => {
       </div>
       <div
         className="text-white mt-16"
-        style={{ paddingLeft: "15px", paddingRight: "15px" }}
+        style={{ paddingLeft: "1px", paddingRight: "75px" }}
       >
         <h3 className="text-lg mt-2 text-start text-white font-bold">
           Servicios

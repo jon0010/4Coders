@@ -70,16 +70,15 @@ const Contacto = () => {
             </button>
           </div>
         </form>
-        <div className="absolute inset-0 w-full h-full">
+        <div className="absolute inset-0 w-full h-full my-20 mx-10">
           <Image
             src="https://res.cloudinary.com/dkpotpaaf/image/upload/v1708452849/house-svgrepo-com_2_ysbuor.svg"
             alt="fondo"
-            width={980}
+            width={280}
             height={900}
             objectFit="cover"
             className="z-0"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent from-70% to-gray-200" />
         </div>
       </div>
       <Footer />
