@@ -19,7 +19,7 @@ const Contacto = () => {
           <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-6xl my-14 font-semibold">
             Contactanos
           </h1>
-          <p className="mb-9 text-slate-700">
+          <p className="mb-9 text-slate-700 text-sm lg:text-lg leading-10">
             ¡Estamos emocionados de tenerte aca! Si tenes alguna consulta sobre
             implementaciones, presupuestos o tenes una idea que queres llevar al
             mundo digital, no dudes en ponerte en contacto con nosotros. Estamos

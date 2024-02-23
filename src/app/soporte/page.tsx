@@ -12,7 +12,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 
 const Soporte = () => {
   return (
-    <div className={`${montserrat.className} antialiased text-center`}>
+    <div className={`${montserrat.className} antialiased text-center text-sm lg:text-lg`}>
       <div style={{ backgroundColor: "#161C2D" }}>
         {" "}
         <Navbar />

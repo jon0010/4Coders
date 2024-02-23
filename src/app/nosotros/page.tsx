@@ -10,7 +10,7 @@ const Nosotros = () => {
   return (
     <>
       <div
-        className={`${montserrat.className} antialiased text-center text-xl`}
+        className={`${montserrat.className} antialiased text-center text-sm lg:text-lg`}
       >
         <div className="bg-slate-600 col-span-2">
           <Navbar />
@@ -43,7 +43,7 @@ const Nosotros = () => {
               Desarrolladores, diseñadores y gestores de proyectos
               especializados en tecnología e innovación
             </h2>
-            <p className="text-start p-2 leading-loose text-xl text-slate-500">
+            <p className="text-start p-2 leading-loose text-slate-500">
               Nuestro compromiso es poner en valor plataformas escalables para
               multiples plataformas, mejorando su calidad y disponibilidad
               permanente, mediante innovación, constante asesoría y comunicación

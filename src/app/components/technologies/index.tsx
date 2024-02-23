@@ -5,7 +5,7 @@ import { BsArrowLeftSquareFill, BsArrowRightSquareFill } from "react-icons/bs";
 
 const Technologies = () => {
   const header = [
-    "BIBLIOTECA DE JAVASCRIPT",
+    "FRAMEWORK DE NODE",
     "SUPERSET CON TIPADO ESTATICO",
     "FRAMEWORK FRONT-END",
     "COMPUTACION EN LA NUBE",
@@ -19,7 +19,7 @@ const Technologies = () => {
     "SISTEMA DE ENCRIPTADO DE DATOS SENSIBLES",
   ];
   const technologies = [
-    "React.js",
+    "Express.js",
     "TypeScript",
     "Next.js",
     "AWS",
@@ -33,7 +33,7 @@ const Technologies = () => {
     "Json web token",
   ];
   const description = [
-    "Es una biblioteca de JavaScript de código abierto diseñada para construir interfaces de usuario interactivas y escalables. React se centra en la creación de componentes reutilizables que gestionan su propio estado y se combinan para formar interfaces de usuario complejas.",
+    "Marco de desarrollo backend rápido y flexible para Node.js. Es uno de los marcos web más populares y ampliamente utilizados en el ecosistema de Node.js debido a su simplicidad y versatilidad. Express.js proporciona una serie de características y herramientas que facilitan la creación de aplicaciones web y APIs robustas.",
     "TypeScript es un lenguaje de programación de código abierto desarrollado por Microsoft que se basa en JavaScript pero agrega tipos estáticos opcionales y otras características modernas. Está diseñado para el desarrollo de aplicaciones a gran escala, especialmente en entornos empresariales y proyectos complejos.",
     "Next.js es un framework de desarrollo web de código abierto basado en React que se utiliza para crear aplicaciones web modernas, rápidas y escalables. Proporciona una serie de características y funcionalidades que facilitan el desarrollo de aplicaciones web complejas y potentes.",
     "Amazon Web Services es la plataforma numero 1 de computacion en la nube. Proporciona una amplia gama de servicios de computación, almacenamiento, bases de datos, análisis, redes, aprendizaje automático, inteligencia artificial y más. Posee microservicios para multiples casos de uso.",
@@ -47,7 +47,7 @@ const Technologies = () => {
     "jsonwebtoken es una biblioteca de Node.js que permite crear y verificar tokens de manera fácil y segura. JWT es un estándar que define un formato para la transferencia de información. Estos tokens son utilizados típicamente para autenticación y autorización.",
   ];
   const logos = [
-    "https://res.cloudinary.com/dkpotpaaf/image/upload/v1707684596/react-svgrepo-com_lj8cdm.svg",
+    "https://res.cloudinary.com/dkpotpaaf/image/upload/v1708709905/node_express_ymmyt0.jpg",
     "https://res.cloudinary.com/dkpotpaaf/image/upload/v1707684655/typescript-svgrepo-com_hnubxw.svg",
     "https://res.cloudinary.com/dkpotpaaf/image/upload/v1707684733/next-js-svgrepo-com_xy1a6y.svg",
     "https://res.cloudinary.com/dkpotpaaf/image/upload/v1707684787/aws-svgrepo-com_lkuym5.svg",
@@ -61,7 +61,7 @@ const Technologies = () => {
     "https://res.cloudinary.com/dkpotpaaf/image/upload/v1707689524/unnamed_xnrazg.png",
   ];
   const colors = [
-    "border-cyan-500 text-cyan-500",
+    "border-yellow-500 text-gray-500",
     "border-blue-900 text-blue-900",
     "border-black text-black",
     "border-orange-500 text-orange-500",
@@ -75,7 +75,7 @@ const Technologies = () => {
     "border-violet-500 text-rose-500",
   ];
   const phrases = [
-    "Creada por facebook",
+    "Framework de backend",
     "Minimiza los errores en producción en un 99%",
     "Integrado y desarrollado por vercel",
     "Proveedor N°1 del mundo en microservicios",

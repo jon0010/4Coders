@@ -9,7 +9,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 
 const Equipo = () => {
   return (
-    <div className={`${montserrat.className} antialiased text-center text-xl`}>
+    <div className={`${montserrat.className} antialiased text-center text-sm lg:text-lg`}>
       <div className="bg-slate-600 col-span-2">
         <Navbar />
       </div>
