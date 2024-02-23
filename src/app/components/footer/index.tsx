@@ -10,7 +10,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div
-      className="grid grid-cols-1 md:grid-cols-4 gap-2 p-8 justify-items-center"
+      className="grid grid-cols-1 md:grid-cols-4 gap-2 p-8 justify-items-center z-40"
       style={{ backgroundColor: "#161C2D" }}
     >
       <div style={{ padding: "25px" }}>
