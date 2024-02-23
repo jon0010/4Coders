@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const ContactBox = () => {
   return (
@@ -18,7 +19,10 @@ const ContactBox = () => {
               </p>
             </div>
             <div className="w-full md:w-1/6 mx-4 flex justify-center items-center mt-4 md:mt-0">
-              <button className="btn btn-primary">Comenzá tu proyecto</button>
+              <Link href="/contacto">
+                {" "}
+                <button className="btn btn-primary">Comenzá tu proyecto</button>
+              </Link>
             </div>
           </div>
         </div>

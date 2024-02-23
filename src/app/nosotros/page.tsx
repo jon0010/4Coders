@@ -3,6 +3,7 @@ import { Montserrat } from "next/font/google";
 import Navbar from "../components/navbar/index";
 import Footer from "../components/footer/index";
 import Image from "next/image";
+import Link from "next/link";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -115,10 +116,13 @@ const Nosotros = () => {
                 acompañando en todo momento en la gestión del cambio del nucleo
                 de tu negocio.
               </p>
-              <button className="btn btn-active btn-primary my-16 h-24 text-base">
-                Tenes una consulta? contactanos por correo electrónico o hace
-                click acá.
-              </button>
+              <Link href="/contacto">
+                {" "}
+                <button className="btn btn-active btn-primary my-16 h-24 text-base">
+                  Tenes una consulta? contactanos por correo electrónico o hace
+                  click acá.
+                </button>
+              </Link>
             </div>
           </div>
         </div>
